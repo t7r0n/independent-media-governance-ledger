@@ -1,0 +1,2 @@
+[console_scripts]
+independent-media-governance-ledger = independent_media_governance_ledger.cli:main

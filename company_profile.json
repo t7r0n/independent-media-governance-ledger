@@ -1,0 +1,47 @@
+{
+  "company": "W-World Media",
+  "company_slug": "w-world-media",
+  "repo": "independent-media-governance-ledger",
+  "package": "independent_media_governance_ledger",
+  "cli": "independent-media-governance-ledger",
+  "title": "Independent Media Governance Ledger",
+  "problem": "independent media operators need durable governance and provenance systems that prove editorial independence, ownership, and platform resilience over time.",
+  "direction": "A governance ledger for media portfolios that tracks editorial policy versions, ownership/brand relationships, infrastructure dependencies, and public corrections as verifiable timelines.",
+  "why": "W-World Media explicitly frames itself around independent media, platform ownership, transparency, governance, and long-term stewardship. The project gives that thesis an inspectable operating system.",
+  "terms": [
+    "independent",
+    "media",
+    "operators",
+    "durable",
+    "governance",
+    "provenance",
+    "systems",
+    "prove",
+    "editorial",
+    "independence",
+    "ownership",
+    "platform",
+    "resilience",
+    "ledger",
+    "portfolios",
+    "tracks",
+    "policy",
+    "versions"
+  ],
+  "metrics": [
+    "independent_coverage",
+    "media_risk",
+    "operators_precision",
+    "durable_latency"
+  ],
+  "failure_modes": [
+    "independent_drift",
+    "media_gap",
+    "operators_misroute",
+    "durable_blindspot"
+  ],
+  "sources": [
+    "https://w-worldmedia.com/about/"
+  ],
+  "github_url": "https://github.com/t7r0n/independent-media-governance-ledger"
+}

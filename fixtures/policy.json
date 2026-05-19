@@ -1,0 +1,18 @@
+{
+  "company": "W-World Media",
+  "repo": "independent-media-governance-ledger",
+  "metrics": [
+    "independent_coverage",
+    "media_risk",
+    "operators_precision",
+    "durable_latency"
+  ],
+  "failure_modes": [
+    "independent_drift",
+    "media_gap",
+    "operators_misroute",
+    "durable_blindspot"
+  ],
+  "minimum_cases": 144,
+  "requires_evidence_markers": true
+}
