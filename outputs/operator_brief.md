@@ -1,6 +1,6 @@
 # Operator Brief: W-World Media
 
-W-World Media gets a local, deterministic pressure test around independent, media, and operators. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action.
+W-World Media gets a local, deterministic pressure test around independent, media, and operators. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
