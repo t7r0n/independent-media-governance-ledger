@@ -1,19 +1,37 @@
 {
-  "company": "W-World Media",
   "repo": "independent-media-governance-ledger",
-  "metrics": [
-    "independent_coverage",
-    "media_risk",
-    "operators_precision",
-    "durable_latency"
+  "company": "W-World Media",
+  "rubric_axes": [
+    {
+      "axis": "independent_coverage",
+      "failures": [
+        "independent_drift"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "media_risk",
+      "failures": [
+        "media_gap"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "operators_precision",
+      "failures": [
+        "operators_misroute"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "durable_latency",
+      "failures": [
+        "durable_blindspot"
+      ],
+      "evidence_required": true
+    }
   ],
-  "failure_modes": [
-    "independent_drift",
-    "media_gap",
-    "operators_misroute",
-    "durable_blindspot"
-  ],
-  "domain_archetypes": [
+  "archetypes": [
     {
       "name": "independent evidence replay",
       "trigger": "independent signal changes while media context is stale",
@@ -35,6 +53,7 @@
       "expected": "accept only if decision claims cite fixture evidence"
     }
   ],
-  "minimum_cases": 144,
-  "requires_evidence_markers": true
+  "sources_used": [
+    "https://w-worldmedia.com/about/"
+  ]
 }
