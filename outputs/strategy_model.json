@@ -1,0 +1,69 @@
+{
+  "company": "W-World Media",
+  "repo": "independent-media-governance-ledger",
+  "terms": [
+    "independent",
+    "media",
+    "operators",
+    "durable",
+    "governance",
+    "provenance",
+    "systems",
+    "prove"
+  ],
+  "metrics": [
+    "independent_coverage",
+    "media_risk",
+    "operators_precision",
+    "durable_latency"
+  ],
+  "failure_modes": [
+    "independent_drift",
+    "media_gap",
+    "operators_misroute",
+    "durable_blindspot"
+  ],
+  "evidence_density": 18.75,
+  "pressure_index": 0.3167,
+  "blocked_share": 0.0972,
+  "review_share": 0.1319,
+  "top_leverage_points": [
+    {
+      "rank": 1,
+      "scenario": "independent evidence replay",
+      "metric": "independent_coverage",
+      "failure_mode": "independent_drift",
+      "evidence": "ev_0044",
+      "operator_action": "block release until cited evidence is regenerated",
+      "severity": 2.611
+    },
+    {
+      "rank": 2,
+      "scenario": "durable operator packet",
+      "metric": "media_risk",
+      "failure_mode": "media_gap",
+      "evidence": "ev_0099",
+      "operator_action": "accept only if decision claims cite fixture evidence",
+      "severity": 2.556
+    },
+    {
+      "rank": 3,
+      "scenario": "operators regression harness",
+      "metric": "operators_precision",
+      "failure_mode": "operators_misroute",
+      "evidence": "ev_0110",
+      "operator_action": "open a regression issue with trace and benchmark delta",
+      "severity": 2.528
+    },
+    {
+      "rank": 4,
+      "scenario": "media boundary probe",
+      "metric": "durable_latency",
+      "failure_mode": "durable_blindspot",
+      "evidence": "ev_0033",
+      "operator_action": "route to reviewer with evidence packet",
+      "severity": 2.528
+    }
+  ],
+  "readout": "W-World Media gets a local, deterministic pressure test around independent, media, and operators. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action."
+}
