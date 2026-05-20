@@ -1,7 +1,7 @@
 [project]
 name = "independent-media-governance-ledger"
 version = "0.1.0"
-description = "A governance ledger for media portfolios that tracks editorial policy versions, ownership/brand relationships, infrastructure dependencies, "
+description = "A governance ledger for media portfolios that tracks editorial policy versions, ownership/brand relationships, infrastru"
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [

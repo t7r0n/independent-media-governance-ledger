@@ -1,69 +1,61 @@
 {
-  "company": "W-World Media",
-  "company_slug": "w-world-media",
+  "company": "Independent Media Governance Ledger",
+  "company_slug": "independent-media-governance-ledger",
   "repo": "independent-media-governance-ledger",
   "package": "independent_media_governance_ledger",
   "cli": "independent-media-governance-ledger",
   "title": "Independent Media Governance Ledger",
   "problem": "independent media operators need durable governance and provenance systems that prove editorial independence, ownership, and platform resilience over time.",
   "direction": "A governance ledger for media portfolios that tracks editorial policy versions, ownership/brand relationships, infrastructure dependencies, and public corrections as verifiable timelines.",
-  "why": "W-World Media explicitly frames itself around independent media, platform ownership, transparency, governance, and long-term stewardship. The project gives that thesis an inspectable operating system.",
+  "why": "This repository is intentionally project-branded rather than company-branded. It focuses on deterministic replay, source-grounded analysis, and reviewer-visible evidence paths.",
   "terms": [
-    "independent",
-    "media",
-    "operators",
-    "durable",
-    "governance",
-    "provenance",
-    "systems",
-    "prove",
-    "editorial",
-    "independence",
-    "ownership",
-    "platform",
-    "resilience",
-    "ledger",
-    "portfolios",
-    "tracks",
+    "evidence",
+    "workflow",
+    "review",
+    "claims",
+    "fixtures",
+    "replay",
+    "handoff",
+    "trace",
     "policy",
-    "versions"
+    "decision",
+    "coverage",
+    "latency"
   ],
   "metrics": [
-    "independent_coverage",
-    "media_risk",
-    "operators_precision",
-    "durable_latency"
+    "evidence_coverage",
+    "handoff_risk",
+    "claim_precision",
+    "review_latency"
   ],
   "failure_modes": [
-    "independent_drift",
-    "media_gap",
-    "operators_misroute",
-    "durable_blindspot"
+    "evidence_drift",
+    "handoff_gap",
+    "claim_misroute",
+    "review_blindspot"
   ],
   "archetypes": [
     {
-      "name": "independent evidence replay",
-      "trigger": "independent signal changes while media context is stale",
+      "name": "evidence replay",
+      "trigger": "source evidence changes while workflow context is stale",
       "expected": "block release until cited evidence is regenerated"
     },
     {
-      "name": "media boundary probe",
-      "trigger": "media handoff crosses a policy or trust boundary",
+      "name": "handoff boundary probe",
+      "trigger": "handoff crosses a policy or trust boundary",
       "expected": "route to reviewer with evidence packet"
     },
     {
-      "name": "operators regression harness",
-      "trigger": "operators behavior regresses against the last accepted fixture",
+      "name": "claim regression harness",
+      "trigger": "claim behavior regresses against the last accepted fixture",
       "expected": "open a regression issue with trace and benchmark delta"
     },
     {
-      "name": "durable operator packet",
-      "trigger": "durable output needs a human-readable audit packet",
+      "name": "review operator packet",
+      "trigger": "review output needs a human-readable audit packet",
       "expected": "accept only if decision claims cite fixture evidence"
     }
   ],
-  "sources": [
-    "https://w-worldmedia.com/about/"
-  ],
+  "sources": [],
   "github_url": "https://github.com/t7r0n/independent-media-governance-ledger"
 }
